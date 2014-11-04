@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="blue" type="color">#0198E1</item>
+    <item name="gray" type="color">#0f000000</item>
+
+    <item name="colorPrimary" type="color">#7D26CD</item>
+    <item name="colorPrimaryDark" type="color">#4B0082</item>
+
+    <item name="primary" type="color">#0198E1</item>
+    <item name="primary_pressed" type="color">#c20198E1</item>
+    <item name="ripple" type="color">#520198E1</item>
+
+</resources>

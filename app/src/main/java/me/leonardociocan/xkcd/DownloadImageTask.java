@@ -87,6 +87,7 @@ public class DownloadImageTask extends AsyncTask<String, Void, JSONObject> {
             activity.comic_num.setText(  result.getString("num"));
             activity.title.setText(  result.getString("safe_title"));
             activity.alt.setText(  result.getString("alt"));
+            activity.imageView.startAnimation(activity.newComicAnimAfter);
         } catch (JSONException e) {
             e.printStackTrace();
         }
